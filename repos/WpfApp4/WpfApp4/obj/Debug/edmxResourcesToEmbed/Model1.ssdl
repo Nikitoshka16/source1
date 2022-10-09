@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище auto2Model" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Doljs">
+    <Key>
+      <PropertyRef Name="doljID" />
+    </Key>
+    <Property Name="doljID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="obiz" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="zp" Type="int" Nullable="false" />
+    <Property Name="nal" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Sotrs">
+    <Key>
+      <PropertyRef Name="sotrID" />
+    </Key>
+    <Property Name="sotrID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="family" Type="nvarchar(max)" />
+    <Property Name="otch" Type="nvarchar(max)" />
+    <Property Name="rojd" Type="int" Nullable="false" />
+    <Property Name="pas" Type="nvarchar(max)" />
+    <Property Name="doljID" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_dbo_Sotrs_dbo_Doljs_doljID">
+    <End Role="Doljs" Type="Self.Doljs" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Sotrs" Type="Self.Sotrs" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Doljs">
+        <PropertyRef Name="doljID" />
+      </Principal>
+      <Dependent Role="Sotrs">
+        <PropertyRef Name="doljID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Хранилище auto2ModelContainer">
+    <EntitySet Name="Doljs" EntityType="Self.Doljs" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Sotrs" EntityType="Self.Sotrs" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_dbo_Sotrs_dbo_Doljs_doljID" Association="Self.FK_dbo_Sotrs_dbo_Doljs_doljID">
+      <End Role="Doljs" EntitySet="Doljs" />
+      <End Role="Sotrs" EntitySet="Sotrs" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

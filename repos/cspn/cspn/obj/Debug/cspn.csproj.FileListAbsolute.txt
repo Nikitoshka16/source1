@@ -1,0 +1,14 @@
+C:\Users\User\source\repos\cspn\cspn\bin\Debug\cspn.exe.config
+C:\Users\User\source\repos\cspn\cspn\bin\Debug\cspn.exe
+C:\Users\User\source\repos\cspn\cspn\bin\Debug\cspn.pdb
+C:\Users\User\source\repos\cspn\cspn\obj\Debug\cspn.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\cspn\cspn\obj\Debug\cspn.Form1.resources
+C:\Users\User\source\repos\cspn\cspn\obj\Debug\cspn.Properties.Resources.resources
+C:\Users\User\source\repos\cspn\cspn\obj\Debug\cspn.csproj.GenerateResource.cache
+C:\Users\User\source\repos\cspn\cspn\obj\Debug\cspn.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\cspn\cspn\obj\Debug\cspn.exe
+C:\Users\User\source\repos\cspn\cspn\obj\Debug\cspn.pdb
+C:\Users\User\source\repos\cspn\cspn\obj\Debug\cspn.Form2.resources
+C:\Users\User\source\repos\cspn\cspn\obj\Debug\cspn.Form3.resources
+C:\Users\User\source\repos\cspn\cspn\obj\Debug\cspn.Form4.resources
+C:\Users\User\source\repos\cspn\cspn\obj\Debug\cspn.Form10.resources

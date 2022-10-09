@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище auto2ModelContainer" CdmEntityContainer="auto2Entities">
+    <EntitySetMapping Name="Doljs">
+      <EntityTypeMapping TypeName="auto2Model.Doljs">
+        <MappingFragment StoreEntitySet="Doljs">
+          <ScalarProperty Name="doljID" ColumnName="doljID" />
+          <ScalarProperty Name="obiz" ColumnName="obiz" />
+          <ScalarProperty Name="zp" ColumnName="zp" />
+          <ScalarProperty Name="nal" ColumnName="nal" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sotrs">
+      <EntityTypeMapping TypeName="auto2Model.Sotrs">
+        <MappingFragment StoreEntitySet="Sotrs">
+          <ScalarProperty Name="sotrID" ColumnName="sotrID" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="family" ColumnName="family" />
+          <ScalarProperty Name="otch" ColumnName="otch" />
+          <ScalarProperty Name="rojd" ColumnName="rojd" />
+          <ScalarProperty Name="pas" ColumnName="pas" />
+          <ScalarProperty Name="doljID" ColumnName="doljID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

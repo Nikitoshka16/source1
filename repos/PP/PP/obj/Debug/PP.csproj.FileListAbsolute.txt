@@ -1,0 +1,13 @@
+C:\Users\User\source\repos\PP\PP\bin\Debug\PP.exe.config
+C:\Users\User\source\repos\PP\PP\bin\Debug\PP.exe
+C:\Users\User\source\repos\PP\PP\bin\Debug\PP.pdb
+C:\Users\User\source\repos\PP\PP\obj\Debug\PP.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\PP\PP\obj\Debug\PP.Form1.resources
+C:\Users\User\source\repos\PP\PP\obj\Debug\PP.Form2.resources
+C:\Users\User\source\repos\PP\PP\obj\Debug\PP.Form3.resources
+C:\Users\User\source\repos\PP\PP\obj\Debug\PP.Properties.Resources.resources
+C:\Users\User\source\repos\PP\PP\obj\Debug\PP.csproj.GenerateResource.cache
+C:\Users\User\source\repos\PP\PP\obj\Debug\PP.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\PP\PP\obj\Debug\PP.exe
+C:\Users\User\source\repos\PP\PP\obj\Debug\PP.pdb
+C:\Users\User\source\repos\PP\PP\obj\Debug\PP.Form4.resources

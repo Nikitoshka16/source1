@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="auto2Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Doljs">
+    <Key>
+      <PropertyRef Name="doljID" />
+    </Key>
+    <Property Name="doljID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="obiz" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="zp" Type="Int32" Nullable="false" />
+    <Property Name="nal" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Sotrs" Relationship="Self.FK_dbo_Sotrs_dbo_Doljs_doljID" FromRole="Doljs" ToRole="Sotrs" />
+  </EntityType>
+  <EntityType Name="Sotrs">
+    <Key>
+      <PropertyRef Name="sotrID" />
+    </Key>
+    <Property Name="sotrID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="family" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="otch" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="rojd" Type="Int32" Nullable="false" />
+    <Property Name="pas" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="doljID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Doljs" Relationship="Self.FK_dbo_Sotrs_dbo_Doljs_doljID" FromRole="Sotrs" ToRole="Doljs" />
+  </EntityType>
+  <Association Name="FK_dbo_Sotrs_dbo_Doljs_doljID">
+    <End Role="Doljs" Type="Self.Doljs" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Sotrs" Type="Self.Sotrs" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Doljs">
+        <PropertyRef Name="doljID" />
+      </Principal>
+      <Dependent Role="Sotrs">
+        <PropertyRef Name="doljID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="auto2Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Doljs" EntityType="Self.Doljs" />
+    <EntitySet Name="Sotrs" EntityType="Self.Sotrs" />
+    <AssociationSet Name="FK_dbo_Sotrs_dbo_Doljs_doljID" Association="Self.FK_dbo_Sotrs_dbo_Doljs_doljID">
+      <End Role="Doljs" EntitySet="Doljs" />
+      <End Role="Sotrs" EntitySet="Sotrs" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

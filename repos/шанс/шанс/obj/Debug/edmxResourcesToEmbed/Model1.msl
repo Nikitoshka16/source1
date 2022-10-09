@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище sHANSModelContainer" CdmEntityContainer="sHANSEntities">
+    <EntitySetMapping Name="dolj">
+      <EntityTypeMapping TypeName="sHANSModel.dolj">
+        <MappingFragment StoreEntitySet="dolj">
+          <ScalarProperty Name="doljID" ColumnName="doljID" />
+          <ScalarProperty Name="obiazanosti" ColumnName="obiazanosti" />
+          <ScalarProperty Name="ZP" ColumnName="ZP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,6 @@
+C:\Users\User\source\repos\шанс\шанс\obj\Debug\шанс.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\шанс\шанс\obj\Debug\MainWindow.g.cs
+C:\Users\User\source\repos\шанс\шанс\obj\Debug\App.g.cs
+C:\Users\User\source\repos\шанс\шанс\obj\Debug\шанс_Content.g.cs
+C:\Users\User\source\repos\шанс\шанс\obj\Debug\шанс_MarkupCompile.cache
+C:\Users\User\source\repos\шанс\шанс\obj\Debug\шанс_MarkupCompile.lref

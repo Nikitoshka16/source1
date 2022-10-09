@@ -1,0 +1,9 @@
+C:\Users\User\source\repos\1111\USQLCSharpProject1\bin\Debug\USQLCSharpProject1.dll
+C:\Users\User\source\repos\1111\USQLCSharpProject1\bin\Debug\USQLCSharpProject1.pdb
+C:\Users\User\source\repos\1111\USQLCSharpProject1\bin\Debug\Microsoft.Analytics.Interfaces.dll
+C:\Users\User\source\repos\1111\USQLCSharpProject1\bin\Debug\Microsoft.Analytics.Interfaces.Streaming.dll
+C:\Users\User\source\repos\1111\USQLCSharpProject1\bin\Debug\Microsoft.Analytics.Types.dll
+C:\Users\User\source\repos\1111\USQLCSharpProject1\obj\Debug\USQLCSharpProject1.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\1111\USQLCSharpProject1\obj\Debug\USQLCSharpProject1.csproj.CopyComplete
+C:\Users\User\source\repos\1111\USQLCSharpProject1\obj\Debug\USQLCSharpProject1.dll
+C:\Users\User\source\repos\1111\USQLCSharpProject1\obj\Debug\USQLCSharpProject1.pdb

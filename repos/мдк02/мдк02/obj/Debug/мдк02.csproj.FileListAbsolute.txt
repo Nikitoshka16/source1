@@ -1,0 +1,7 @@
+C:\Users\User\source\repos\мдк02\мдк02\bin\Debug\мдк02.exe.config
+C:\Users\User\source\repos\мдк02\мдк02\bin\Debug\мдк02.exe
+C:\Users\User\source\repos\мдк02\мдк02\bin\Debug\мдк02.pdb
+C:\Users\User\source\repos\мдк02\мдк02\obj\Debug\мдк02.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\мдк02\мдк02\obj\Debug\мдк02.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\мдк02\мдк02\obj\Debug\мдк02.exe
+C:\Users\User\source\repos\мдк02\мдк02\obj\Debug\мдк02.pdb
